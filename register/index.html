@@ -18,10 +18,12 @@
   --success:rgba(34,197,94,.15); --error:rgba(239,68,68,.15);
 }
 
-body{
-  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  background:#0a0a14;color:var(--text);min-height:100vh;
-  overflow-x:hidden;position:relative;
+body {
+    background-image: url('https://imagetourl.im/api/storage/file?key=uploads%2F1814d5ce-678b-4ce6-b992-7c0875f03fd2-1345.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* 其他样式保持不变 */
 }
 /* Grid layout */
 .page{
@@ -375,14 +377,14 @@ button:disabled{opacity:.5;cursor:not-allowed}
   <div class="brand-area">
     <div class="hero-logo">
       <div class="hero-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-      <span class="hero-name">Beacon 灯塔</span>
+      <span class="hero-name">Jing Zhe VPN</span>
     </div>
     <h1 class="hero-slogan">连接世界，<span class="text-gradient">自由无界</span></h1>
-    <p class="hero-desc">基于 Cloudflare Workers 构建的高性能公益网络服务，稳定、快速、免费。</p>
+    <p class="hero-desc">惊蛰VPN</p>
     <div class="features">
       <span class="feature-tag"><i class="feature-dot"></i>全球节点覆盖</span>
       <span class="feature-tag"><i class="feature-dot"></i>多协议支持</span>
-      <span class="feature-tag"><i class="feature-dot"></i>免费使用</span>
+      <span class="feature-tag"><i class="feature-dot"></i>最低月费</span>
     </div>
 
   <!-- 使用须知弹窗 -->
@@ -394,7 +396,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
       <div class="rules-modal-header"><span style="font-size:24px">📋</span><h2>使用须知</h2></div>
       <div class="rules-modal-body">
         <ul class="rules-list">
-          <li>本服务节点为固定节点不需要更新也不推荐更新！！！</li>
+          <li>本服务节点三小时自动更新，请及时更新端口！！！</li>
           <li>本服务为公益性质，仅供个人学习、研究使用</li>
           <li>请勿用于任何商业用途或非法活动</li>
           <li>禁止分享、转卖账号或订阅链接给他人</li>
@@ -429,7 +431,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
     </div>
     <div class="reg-closed-notice" id="regClosedNotice" role="alert" aria-live="polite" style="display:none">
       <div class="notice-icon" aria-hidden="true">🔒</div>
-      <p class="notice-title">注册功能已暂停开放</p>
+      <p class="notice-title">注册功能已暂停开放，有需求联系惊蛰</p>
       <p class="notice-desc">当前注册功能已暂停开放，敬请留意后续通知。您仍可登录已有账户。</p>
     </div>
     <div class="form" id="authForm">
@@ -466,15 +468,15 @@ button:disabled{opacity:.5;cursor:not-allowed}
   <div class="footer">
     <div class="footer-about">
       <div class="about-divider"></div>
-      <h3 class="about-title">公益代理说明</h3>
-      <p class="about-desc">Beacon 灯塔 公益代理 旨在打破信息壁垒，为科研、学习提供基础网络支持。我们承诺永久免费，但也请您合理使用资源。</p>
+      <h3 class="about-title">代理说明</h3>
+      <p class="about-desc">惊蛰VPN 旨在打破信息壁垒，为科研、学习提供基础网络支持。我们承诺永久更新，但也请您合理使用资源。</p>
       <div class="about-pills">
-        <span class="about-pill">🆓 永久免费</span>
+        <span class="about-pill">🆓 永久更新</span>
         <span class="about-pill">👥 社区维护</span>
         <span class="about-pill">🔒 安全加密</span>
       </div>
     </div>
-    <div class="footer-credit">Powered by Cloudflare Workers · <a href="https://github.com/cmliu/edgetunnel" target="_blank" rel="noopener">EdgeTunnel</a></div>
+    <div class="footer-credit">Powered by 惊蛰 · <a href="https://github.com/cmliu/edgetunnel" target="_blank" rel="noopener">Technology</a></div>
   </div>
   </div>
 
