@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Beacon 灯塔 · 认证面板</title>
+<title>惊蛰 VPN · 认证面板</title>
 <style>
 /* ═══════════════════════════════════════════════
    Liquid Fluid Background Hero — SVG feTurbulence
@@ -363,14 +363,14 @@ button:disabled{opacity:.5;cursor:not-allowed}
   <div class="brand-area">
     <div class="hero-logo">
       <div class="hero-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-      <span class="hero-name">Beacon 灯塔</span>
+      <span class="hero-name">惊蛰VPN</span>
     </div>
     <h1 class="hero-slogan">连接世界，<span class="text-gradient">自由无界</span></h1>
-    <p class="hero-desc">基于 Cloudflare Workers 构建的高性能公益网络服务，稳定、快速、免费。</p>
+    <p class="hero-desc">作者自建VPS住宅节点，永久更新，有问题随时联系作者，保证稳定、快速、安全。</p>
     <div class="features">
       <span class="feature-tag"><i class="feature-dot"></i>全球节点覆盖</span>
       <span class="feature-tag"><i class="feature-dot"></i>多协议支持</span>
-      <span class="feature-tag"><i class="feature-dot"></i>免费使用</span>
+      <span class="feature-tag"><i class="feature-dot"></i>付费使用</span>
     </div>
 
   <!-- 使用须知弹窗 -->
@@ -382,12 +382,13 @@ button:disabled{opacity:.5;cursor:not-allowed}
       <div class="rules-modal-header"><span style="font-size:24px">📋</span><h2>使用须知</h2></div>
       <div class="rules-modal-body">
         <ul class="rules-list">
-          <li>本服务节点为固定节点不需要更新也不推荐更新！！！</li>
-          <li>本服务为公益性质，仅供个人学习、研究使用</li>
+          <li>本服务节点为自建节点，每次请及时更新节点！！</li>
+          <li>本服务为收费性质，仅供个人学习、研究使用</li>
           <li>请勿用于任何商业用途或非法活动</li>
           <li>禁止分享、转卖账号或订阅链接给他人</li>
           <li>请合理使用资源，避免频繁请求造成服务不稳定</li>
           <li>管理员保留随时封禁违规账号的权利</li>
+          <li>本服务节点为自费节点，每月月租10元，为爱发电，谢谢支持<li>
         </ul>
         <div class="rules-limit">
           <div class="rules-limit-title">⚠️ 使用限制与安全策略</div>
@@ -418,7 +419,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
     <div class="reg-closed-notice" id="regClosedNotice" role="alert" aria-live="polite" style="display:none">
       <div class="notice-icon" aria-hidden="true">🔒</div>
       <p class="notice-title">注册功能已暂停开放</p>
-      <p class="notice-desc">当前注册功能已暂停开放，敬请留意后续通知。您仍可登录已有账户。</p>
+      <p class="notice-desc">当前注册功能已暂停开放，如想注册账号，请联系作者付费10元月租。您仍可登录已有账户。</p>
     </div>
     <div class="form" id="authForm">
       <div class="field"><label for="account">用户名</label><input type="text" id="account" placeholder="输入你的用户名" autocomplete="username" maxlength="64"><div class="field-hint" id="accountHint"></div></div>
@@ -457,7 +458,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
       <h3 class="about-title">公益代理说明</h3>
       <p class="about-desc">Beacon 灯塔 公益代理 旨在打破信息壁垒，为科研、学习提供基础网络支持。我们承诺永久免费，但也请您合理使用资源。</p>
       <div class="about-pills">
-        <span class="about-pill">🆓 永久免费</span>
+        <span class="about-pill">🆓 永久更新</span>
         <span class="about-pill">👥 社区维护</span>
         <span class="about-pill">🔒 安全加密</span>
       </div>
